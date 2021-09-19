@@ -11,7 +11,8 @@ print(meu_dicionario_2.get('sobrenome'))
 print(len(meu_dicionario))
 
 #Pop()
-meu_dicionario.pop(2)
+meu_dicionario.pop(1)
+# del meu_dicionario[1]
 print(meu_dicionario)
 
 #Clear()
@@ -20,10 +21,10 @@ print(meu_dicionario)
 # print(meu_dicionario)
 
 #Keys()
-print(meu_dicionario.keys())
-print(meu_dicionario_2.keys())
+# print(meu_dicionario.keys())
+# print(meu_dicionario_2.keys())
 
 #Adcionando elementos
 meu_dicionario[5] = 'Joaquina'
-print(meu_dicionario)
+# print(meu_dicionario)
 meu_dicionario_2.update({'profissao' : 'Programador'})
